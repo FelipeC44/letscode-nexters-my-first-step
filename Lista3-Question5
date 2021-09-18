@@ -1,0 +1,11 @@
+public class QuestionFifth {
+
+public static void main(String[] args) {
+    int[] people = {1,2,3,4,5};
+
+
+    }
+}
+
+//Escreva um programa que lê o nome de 5 pessoas armazena numa lista de convidados.
+//Ao final, informa qual o nome mais longo presente na lista.
