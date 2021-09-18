@@ -1,0 +1,54 @@
+import java.util.Scanner;
+
+public class QuestionEighth {
+    //Escreva um programa que lê nome, peso e altura de 5 pessoas, calcula o IMC
+    //de cada um e ao final informa se alguém está fora do peso ideal
+    // (o IMC ideal é entre 18,5 e 25).
+    public static void main(String[] args) {
+
+        float massa = 30, altura = 20, IMC;
+        //queria criar uma constante aqui em cima desses valor fixos,
+        // mas ao colocar um 'final' na palavra os erros pioravam...
+        Scanner in = new Scanner(System.in);
+        int[] num = new int[5];
+        for (int i = 0; i < num.length; ) i++;
+        int i = 0;
+        System.out.printf("Digita o nome da %dª pessoa: \n", (i + 1));
+        num[i] = in.nextInt();
+        Scanner sc = new Scanner(System.in);
+        System.out.printf("Digite a massa (Kg)");
+        sc(" %d ", massa); //Não soube tirar proveito do %mod nessa situação...
+        sc.nextFloat();
+        System.out.printf("Digite a altura (Metros): ");
+        sc(" %d ", altura);
+        sc.nextFloat();
+
+        IMC = massa / (Math.abs(altura = 20));
+//Até aqui era para o calculo entender que se algum valor colocado diferente das constantes avisaria no seguinte fluxo:
+
+        System.out.printf("-----------------------------------\n");
+        System.out.printf("Seu IMC e: %0.2f\n", IMC);
+
+        if (IMC < 17) {
+            System.out.printf("Muito abaixo do peso.\n");
+        } else {
+            if (IMC > 17 && IMC < 18.49) {
+                System.out.printf("Abaixo do peso.\n");
+            } else {
+                if (IMC > 18.5 && IMC < 24.99) {
+                    System.out.printf("Peso normal.\n");
+                } else {
+                    if (IMC > 25 && IMC < 29.99) {
+                        System.out.printf("Acima do peso.\n");
+//Os valores fixos lá de cima apontariam aqui seguindo a lógica...
+                    }
+                }
+            }
+        }
+    }
+
+    private static void sc(String s, float massa) {
+        // esse método eu só criei porque não soube resolver a questão do %mod lá em cima
+        // ai o programa começou a dar erro apontar erro nas minhas outras questões
+    }
+}
