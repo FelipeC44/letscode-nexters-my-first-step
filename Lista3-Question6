@@ -1,0 +1,18 @@
+public class QuestionSixth {
+     //Escreva um programa que lê uma palavra e escreve de volta com os
+    // caracteres ímpares em maiúsculos
+    public static void main(String[] args){
+       String palavra = "slayer";
+       char [] upper = new char[palavra.length()];
+        for(int i = 0; i <= palavra.length() - 1; i++) {
+            upper[i] = palavra.charAt(i);
+        }
+        for (int i = 0; i < palavra.length(); i++){
+            if ((i%2) == 1){
+            char pm = upper[i];
+            upper[i] = Character.toUpperCase(pm);
+            }
+        }
+        System.out.println(upper);
+    }
+}
