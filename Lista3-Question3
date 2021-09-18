@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class QuestionThird {
-    public static void main(String[]args) {
+   public class QuestionThird {
+   public static void main(String[]args) {
 
         Scanner in = new Scanner(System.in);
         int[] nums = new int[5];
@@ -9,13 +9,13 @@ public class QuestionThird {
             System.out.printf("Digite o %dº valor: \n", (i + 1));
             nums[i] = in.nextInt();
         }
-        System.out.println("Numeros impares: ");
+        System.out.println("Números impares: ");
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] % 2 != 0) {
                 System.out.print(nums[i] + ";");
             }
         }
-        System.out.println("\nNumeros pares: ");
+        System.out.println("\nNúmeros pares: ");
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] % 2 == 0) {
                 System.out.print(nums[i] + ";");
@@ -23,5 +23,5 @@ public class QuestionThird {
         }
     }
 }
-    //escreva um programa que lê 5 números.Ao final,
-    // escreva primeiro todos os ímpares, depois todos os pares
+    //Escreva um programa que lê 5 números.Ao final, escreva primeiro todos os ímpares, depois todos os pares
+     
