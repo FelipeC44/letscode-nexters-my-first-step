@@ -1,10 +1,7 @@
 import java.util.Scanner;
 
 public class QuestionEighth {
-    //Escreva um programa que lê nome, peso e altura de 5 pessoas, calcula o IMC
-    //de cada um e ao final informa se alguém está fora do peso ideal
-    // (o IMC ideal é entre 18,5 e 25).
-    public static void main(String[] args) {
+public static void main(String[] args) {
 
         float massa = 30, altura = 20, IMC;
         //queria criar uma constante aqui em cima desses valor fixos,
@@ -52,3 +49,7 @@ public class QuestionEighth {
         // ai o programa começou a dar erro apontar erro nas minhas outras questões
     }
 }
+
+//Escreva um programa que lê nome, peso e altura de 5 pessoas, calcula o IMC de cada um e ao final informa se alguém está 
+//fora do peso ideal (o IMC ideal é entre 18,5 e 25).
+
