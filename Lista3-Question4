@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
-public class QuestionFourth {
-
-    //Escreva um programa que lê 5 números e informa o maior, o menor e a média deles
+    public class QuestionFourth {
     public static void main(String[] args) {
+    
         Scanner ent = new Scanner(System.in);
         int num, maior = 0, menor = 5, media = 3, soma = 0;
         int contMaior = 0, contMenor = 0, i;
@@ -29,3 +28,5 @@ public class QuestionFourth {
         System.out.println("A média foi " + (media = soma / i));
     }
 }
+
+//Escreva um programa que lê 5 números e informa o maior, o menor e a média deles
