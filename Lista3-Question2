@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
-public class QuestionSecond {
-        public static void main (String[]args){
+ public class QuestionSecond {
+ public static void main (String[]args){
+        
             Scanner in = new Scanner(System.in);
             System.out.println("Digite uma palavra: ");
             String palavra = in.nextLine();
